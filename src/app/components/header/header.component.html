@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-warning bg-warning " >
-    <a class="navbar-brand text-dark" href="#" >RE<span class="text-danger">Z</span>RO </a>
+    <a class="navbar-brand text-dark" href="#" >Investo<span class="text-danger">F</span>orm </a>
     
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -7,12 +7,25 @@
   
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
-        <!-- <li class="nav-item active">
+        <li class="nav-item active">
           <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li> -->
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Markets <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Technicals <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">EQ <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">F&O <span class="sr-only">(current)</span></a>
+        </li>
         <!-- <li class="nav-item active" *ngIf="!authService.userData">
           <a class="nav-link" href="/sign-in" >Login<span class="sr-only">(current)</span></a>
         </li> -->
+
         <li class="nav-item active" *ngIf="authService.userData">
           <!-- <a class="nav-link" href="#">Dashboard <span class="sr-only">(current)</span></a> -->
         </li>
@@ -23,7 +36,7 @@
         <!-- <input class="form-control mr-sm-2" type="search" placeholder="Closing restaurants" aria-label="Search"> -->
         <!-- <button class="btn btn-outline-light my-2 my-sm-0" href="/list"  type="submit">List your restaurants</button> -->
         
-        <a *ngIf="authService.userData" class="nav-link btn-dark" href="/list" >List your restaurants<span class="sr-only">(current)</span></a>
+        <a *ngIf="authService.userData" class="nav-link btn-dark" href="#" >Broker Area<span class="sr-only">(current)</span></a>
           
         <a *ngIf="!authService.userData" class="nav-link" href="/sign-in" >Login<span class="sr-only">(current)</span></a>
           

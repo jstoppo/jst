@@ -19,6 +19,8 @@ import { HomeComponent } from './components/home/home.component';
 import { HeaderComponent } from './components/header/header.component';
 
 import { ListComponent } from './components/list/list.component';
+import { HttpClientModule } from '@angular/common/http'; 
+import { FormsModule ,ReactiveFormsModule} from '@angular/forms';
 
 
 @NgModule({
@@ -38,6 +40,9 @@ import { ListComponent } from './components/list/list.component';
     AppRoutingModule,
     AngularFireModule.initializeApp(environment.firebaseConfig),
     AngularFireAuthModule,
+    HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule,
     AngularFirestoreModule
   ],
   providers: [AuthService],
